@@ -1,0 +1,4 @@
+act_hi_detail	proc_inst_id_
+act_hi_varinst	proc_inst_id_
+act_hi_actinst 	proc_inst_id_
+
