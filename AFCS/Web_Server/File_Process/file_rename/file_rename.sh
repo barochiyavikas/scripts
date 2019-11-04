@@ -24,13 +24,13 @@ K=`echo "$J"`
 
 Y=`echo "$K"`
 
-#cd /home/nec/afc/backend/idms/server/file-server/ftp/tran/file_rename/input/
-
 /bin/mv ${i} ${Y}
 
 /bin/mv ${Y} /home/nec/afc/backend/idms/server/file-server/ftp/tran/file_rename/output/
 
 done < /home/nec/afc/backend/idms/server/file-server/ftp/tran/file_rename/file_list.txt
+
+#Here we move files to temp_data folder
 
 /bin/mv /home/nec/afc/backend/idms/server/file-server/ftp/tran/file_rename/output/* /home/nec/afc/backend/idms/server/file-server/ftp/tran/temp_data/
 
